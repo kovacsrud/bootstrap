@@ -1,25 +1,25 @@
-# Számítógépes játékok weblap feladat megoldása Bootstrap-el
+# SzÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kok weblap feladat megoldÃ¡sa Bootstrap-el
 
 ----
 
 ## Feladatok
 ----
 
--[ ] Üres Bootstrap HTML lap létrehozása
+-[] Ãœres Bootstrap HTML lap lÃ©trehozÃ¡sa
 
--[ ] Carousel beillesztés 3 képpel
+-[] Carousel beillesztÃ©s 3 kÃ©ppel
 
--[ ] Jumbotron beillesztése
+-[] Jumbotron beillesztÃ©se
 
--[ ] Card elemek beillesztése
+-[] Card elemek beillesztÃ©se
 
--[ ] Aloldalak létrehozása
+-[] Aloldalak lÃ©trehozÃ¡sa
 
 ----
 
-## Üres Bootstrap HTML oldal létrehozása
+## Ãœres Bootstrap HTML oldal lÃ©trehozÃ¡sa
 
-Brackets-ben új fájl, majd bemásoljuk az oldalt létrehozó HTML kódot:
+Brackets-ben Ãºj fÃ¡jl, majd bemÃ¡soljuk az oldalt lÃ©trehozÃ³ HTML kÃ³dot:
 
 ```html
 <!doctype html>
@@ -35,7 +35,7 @@ Brackets-ben új fájl, majd bemásoljuk az oldalt létrehozó HTML kódot:
     <title>Bootstrap</title>
 </head>
 <body>
-    <!-- Ide jönnek az oldal tartalmai -->
+    <!-- Ide jÃ¶nnek az oldal tartalmai -->
    
 
     <!-- Optional JavaScript -->
@@ -50,9 +50,9 @@ Brackets-ben új fájl, majd bemásoljuk az oldalt létrehozó HTML kódot:
 
 ----
 
-## Carousel létrehozása
+## Carousel lÃ©trehozÃ¡sa
 
-Ez az elem képeket tud periodikusan megjeleníteni, annyit amennyit akarunk.
+Ez az elem kÃ©peket tud periodikusan megjelenÃ­teni, annyit amennyit akarunk.
 
 ```html
  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -71,7 +71,7 @@ Ez az elem képeket tud periodikusan megjeleníteni, annyit amennyit akarunk.
 ```
 ----
 
-### Ezek a képek kerüljenek be
+### Ezek a kÃ©pek kerÃ¼ljenek be
 
 >c64.png
 
@@ -79,69 +79,69 @@ Ez az elem képeket tud periodikusan megjeleníteni, annyit amennyit akarunk.
 
 >pong.png
 
-Az alt segít a kép helyének beazonosításában.
+Az alt segÃ­t a kÃ©p helyÃ©nek beazonosÃ­tÃ¡sÃ¡ban.
 
-## Jumbotron létrehozása
+## Jumbotron lÃ©trehozÃ¡sa
 
 ---
 
-A következõ kód hozza létre a Jumbotron-t
+A kÃ¶vetkezÅ‘ kÃ³d hozza lÃ©tre a Jumbotron-t
 
 ```html
 <div class="jumbotron bg-info">
-        <h1 class="display-4 text-dark">H1 szöveg</h1>
-        <p class="lead text-secondary">P szöveg</p>
+        <h1 class="display-4 text-dark">H1 szÃ¶veg</h1>
+        <p class="lead text-secondary">P szÃ¶veg</p>
         <hr class="my-4">
-        <!--<p>Információk</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Továbbiak</a>-->
+        <!--<p>InformÃ¡ciÃ³k</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">TovÃ¡bbiak</a>-->
     </div>
 
 ```
-### Ezek a szövegek jelenjenek meg
+### Ezek a szÃ¶vegek jelenjenek meg
 
->H1:A számítógépes játékok története
->P:A pongtól a game boy-ig.
+>H1:A szÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kok tÃ¶rtÃ©nete
+>P:A pongtÃ³l a game boy-ig.
 
 
-## Ismertetõ szöveg elhelyezése
+## IsmertetÅ‘ szÃ¶veg elhelyezÃ©se
 
 ```html
 <div class="container-fluid">
         <div class="row">
             <p class="text-justify m-2 p-2">
-               Szöveg ide
+               SzÃ¶veg ide
             </p>
         </div>
 </div>
 ```
 
-### Ez legyen a megjelenített szöveg
+### Ez legyen a megjelenÃ­tett szÃ¶veg
 
-Számítógépes játékok története
-A számítógépes játékok története a számítógépekével közel azonos idõre vezethetõ vissza. Az elsõ programozók csak a maguk szórakoztatására vagy a számítógép képességeinek demonstrálására készítették számítógépes játékprogramjaikat. Késõbb jelent meg az üzlet lehetõsége, ami önálló iparrá tette a számítógépes játékgyártást. A számítógépekben rejlõ lehetõségek bemutatására készített játékprogramok mind a mai napig fontos színterei a fejlesztéseknek. Gondoljunk csak a sakkozógépre. A Deep Blue az IBM által kifejlesztett számítógép, amely sakkjátékban 1997-ben egy szabályszerû hatjátszmás páros mérkõzésen 3,5-2,5 arányban legyõzte Garri Kaszparovot, az emberi sakkozás akkori világbajnokát. A cél az volt, hogy bemutassák, a számítógép nem úgy gondolkozik, ahogy az ember, de a nyers számítási erõ képes speciális esetekben az emberi gondolkodással vetekedni.
+SzÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kok tÃ¶rtÃ©nete
+A szÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kok tÃ¶rtÃ©nete a szÃ¡mÃ­tÃ³gÃ©pekÃ©vel kÃ¶zel azonos idÅ‘re vezethetÅ‘ vissza. Az elsÅ‘ programozÃ³k csak a maguk szÃ³rakoztatÃ¡sÃ¡ra vagy a szÃ¡mÃ­tÃ³gÃ©p kÃ©pessÃ©geinek demonstrÃ¡lÃ¡sÃ¡ra kÃ©szÃ­tettÃ©k szÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kprogramjaikat. KÃ©sÅ‘bb jelent meg az Ã¼zlet lehetÅ‘sÃ©ge, ami Ã¶nÃ¡llÃ³ iparrÃ¡ tette a szÃ¡mÃ­tÃ³gÃ©pes jÃ¡tÃ©kgyÃ¡rtÃ¡st. A szÃ¡mÃ­tÃ³gÃ©pekben rejlÅ‘ lehetÅ‘sÃ©gek bemutatÃ¡sÃ¡ra kÃ©szÃ­tett jÃ¡tÃ©kprogramok mind a mai napig fontos szÃ­nterei a fejlesztÃ©seknek. Gondoljunk csak a sakkozÃ³gÃ©pre. A Deep Blue az IBM Ã¡ltal kifejlesztett szÃ¡mÃ­tÃ³gÃ©p, amely sakkjÃ¡tÃ©kban 1997-ben egy szabÃ¡lyszerÅ± hatjÃ¡tszmÃ¡s pÃ¡ros mÃ©rkÅ‘zÃ©sen 3,5-2,5 arÃ¡nyban legyÅ‘zte Garri Kaszparovot, az emberi sakkozÃ¡s akkori vilÃ¡gbajnokÃ¡t. A cÃ©l az volt, hogy bemutassÃ¡k, a szÃ¡mÃ­tÃ³gÃ©p nem Ãºgy gondolkozik, ahogy az ember, de a nyers szÃ¡mÃ­tÃ¡si erÅ‘ kÃ©pes speciÃ¡lis esetekben az emberi gondolkodÃ¡ssal vetekedni.
 
 
-## Kártyák létrehozása, hivatkozással az aloldalakra
+## KÃ¡rtyÃ¡k lÃ©trehozÃ¡sa, hivatkozÃ¡ssal az aloldalakra
 
-### Elõször egy konténer kell, amelyben a kártyákat egy sorba tesszük bele
+### ElÅ‘szÃ¶r egy kontÃ©ner kell, amelyben a kÃ¡rtyÃ¡kat egy sorba tesszÃ¼k bele
 
 ```html
  <div class="container">
         <div class="row">
-		Ide jönnek a kártyák
+		Ide jÃ¶nnek a kÃ¡rtyÃ¡k
 	</div>
 </div>
 
 ```
-## Egy kártya létrehozása
+## Egy kÃ¡rtya lÃ©trehozÃ¡sa
 
 ```html
  <div class="card h-100" style="width: 18rem;">
      <img class="card-img-top" src="../gameboy.png" alt="Card image cap">
               <div class="card-body">
                   <h5 class="card-title">Gameboy</h5>
-                   <p class="card-text text-justify">A Game Boy az 	egyik elsõ, sikeres, nagy példányszámban eladott játékkonzol. A japán Nintendo cég által tervezett és gyártott 8-bites kézi 	játékkonzol egyik nagy elõnye a cserélhetõ játékkártya volt.</p>
-                    <a href="#" class="btn btn-primary">Tovább</a>
+                   <p class="card-text text-justify">A Game Boy az 	egyik elsÅ‘, sikeres, nagy pÃ©ldÃ¡nyszÃ¡mban eladott jÃ¡tÃ©kkonzol. A japÃ¡n Nintendo cÃ©g Ã¡ltal tervezett Ã©s gyÃ¡rtott 8-bites kÃ©zi 	jÃ¡tÃ©kkonzol egyik nagy elÅ‘nye a cserÃ©lhetÅ‘ jÃ¡tÃ©kkÃ¡rtya volt.</p>
+                    <a href="#" class="btn btn-primary">TovÃ¡bb</a>
                </div>
 </div>
 ```
