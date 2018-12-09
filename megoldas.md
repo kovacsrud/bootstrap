@@ -5,15 +5,15 @@
 ## Feladatok
 ----
 
-[ ] Üres Bootstrap HTML lap létrehozása
+- [ ] Üres Bootstrap HTML lap létrehozása
 
-[ ] Carousel beillesztés 3 képpel
+- [ ] Carousel beillesztés 3 képpel
 
-[ ] Jumbotron beillesztése
+- [ ] Jumbotron beillesztése
 
-[ ] Card elemek beillesztése
+- [ ] Card elemek beillesztése
 
-[ ] Aloldalak létrehozása
+- [ ] Aloldalak létrehozása
 
 ----
 
